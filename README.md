@@ -1,4 +1,4 @@
-# DCGAN implementation on MatConvNet (any MCN version is compatible)
+# DCGAN [1] implementation on MatConvNet (any MCN version is compatible)
 Deep Convolutional Generative Adversarial Network (DCGAN) implementation on MatConvNet 
 
 # Prerequisite: 
@@ -7,11 +7,17 @@ Deep Convolutional Generative Adversarial Network (DCGAN) implementation on MatC
 
 # How to run
 Run main_start_dcgan.m (set opts.idx_gpus = 1 in line 7 if GPUs are supported, otherwise opts.idx_gpus = 0)
-It then will do:
-1) Install MatConvNet (ver 1.0-beta24)
-2) Form a image db file fitting to MatConvNet
-3) Test a pre-trained DCGAN
-4) train a new DCGAN
+
+'main_start_dcgan.m' will perform:
+1) Installation of MatConvNet (ver 1.0-beta24)
+2) Formation of a image db file fitting to MatConvNet
+3) Testing a pre-trained DCGAN
+4) traing a new DCGAN
+*Note: all hyper parameters for training (e.g., learning rate) are identical to that in the paper [1]
+
 
 # Result
-![alt text](https://github.com/sunghbae/dcgan-matconvnet/demo.bmp)
+![alt text](https://github.com/sunghbae/dcgan-matconvnet/demo.png)
+
+
+[1] Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).
