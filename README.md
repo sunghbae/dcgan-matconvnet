@@ -3,7 +3,7 @@ Deep Convolutional Generative Adversarial Network (DCGAN) [1] implementation on 
 
 *Note: Any MCN version is compatible
 
-## Prerequisite: 
+## Prerequisite 
 1. Download CelebA database at: https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?usp=sharing
 2. Download Pretrained DCGAN at: https://www.dropbox.com/s/fvasd83oqgse7xr/net_dcgan.mat?dl=0
 
