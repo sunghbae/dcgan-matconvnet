@@ -22,7 +22,7 @@ Run main_start_dcgan.m (set 'opts.idx_gpus = 1' in line 7 if GPUs are supported,
 3. Testing a pre-trained DCGAN
 4. Training a new DCGAN
 
-*Note: All network hyper parameters for training (e.g., learning rate) are identically set to [1]
+*Note: All hyper parameters for training the network (e.g., learning rate) are identically set to [1]
 
 
 ## Result
