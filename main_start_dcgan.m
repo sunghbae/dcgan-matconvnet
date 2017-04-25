@@ -1,4 +1,6 @@
-%% Prerequisite: download CelebA database at: https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?usp=sharing
+%% Prerequisite: 
+%% 1. Download CelebA database at: https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?usp=sharing
+%% 2. Download Pretrained DCGAN at: https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?usp=sharing
 addpath('src');
 addpath('net');
 
