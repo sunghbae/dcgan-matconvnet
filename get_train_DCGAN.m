@@ -2,7 +2,7 @@ function [ net ] = get_train_DCGAN(varargin)
 addpath('src');
 opts.matconvnet_path = 'matconvnet-1.0-beta24/matlab/vl_setupnn.m';
 
-opts.idx_gpus = 0; % cpu/gpu settings 
+opts.idx_gpus = 1; % cpu/gpu settings 
 opts.imdb_path = ('list_Celeb_full.mat');
 opts.imdb_img_size = [64 64];
 opts.label_std = 0.2; %adding Gaussian noise to labels in training D
