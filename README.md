@@ -17,8 +17,6 @@ Run main_start_dcgan.m (set opts.idx_gpus = 1 in line 7 if GPUs are supported, o
 
 
 # Result
-![alt text](https://github.com/sunghbae/dcgan-matconvnet/demo.png)
-
-(https://github.com/sunghbae/dcgan-matconvnet/demo.png)
+![alt text](https://github.com/sunghbae/dcgan-matconvnet/blob/master/demo.png)
 
 [1] Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).
