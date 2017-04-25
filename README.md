@@ -16,7 +16,7 @@ Deep Convolutional Generative Adversarial Network (DCGAN) [1] implementation on 
 ## How to play
 Run main_start_dcgan.m 
 
-    (set 'opts.idx_gpus = 1' in line 7 if GPUs are supported, otherwise 'opts.idx_gpus = 0')
+    (set 'opts.idx_gpus = 1' in line 7 if GPU is available, otherwise 'opts.idx_gpus = 0')
 
 'main_start_dcgan.m' will perform:
 1. Installation of MatConvNet (ver 1.0-beta24)
