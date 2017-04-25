@@ -1,5 +1,6 @@
-# DCGAN implementation on MatConvNet (any MCN version is compatible)
+# DCGAN implementation on MatConvNet 
 Deep Convolutional Generative Adversarial Network (DCGAN) [1] implementation on MatConvNet 
+*Note: Any MCN version is compatible
 
 ## Prerequisite: 
 1. Download CelebA database at: https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?usp=sharing
