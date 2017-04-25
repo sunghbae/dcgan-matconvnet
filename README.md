@@ -23,3 +23,10 @@ Run main_start_dcgan.m (set 'opts.idx_gpus = 1' in line 7 if GPUs are supported,
 ![alt text](https://github.com/sunghbae/dcgan-matconvnet/blob/master/demo.png)
 
 [1] Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).(https://arxiv.org/abs/1511.06434) 
+
+## Future plan
+I plan to deliver the scripts for:
+1) Visualization of filter responses in the network
+2) Checking memorability of the training dataset with 'vector arithmetic operation'
+3) Scoring quality of the network using the incepcion network
+
