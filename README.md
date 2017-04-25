@@ -12,7 +12,7 @@ Run main_start_dcgan.m (set 'opts.idx_gpus = 1' in line 7 if GPUs are supported,
 
 'main_start_dcgan.m' will perform:
 1. Installation of MatConvNet (ver 1.0-beta24)
-2. Formation of an image DB file fitting to MatConvNet
+2. Generation of an image DB file fitting to MatConvNet
 3. Testing a pre-trained DCGAN
 4. Training a new DCGAN
 *Note: All network hyper parameters for training (e.g., learning rate) are identically set to [1]
