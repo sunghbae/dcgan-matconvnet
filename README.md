@@ -5,8 +5,9 @@ Deep Convolutional Generative Adversarial Network (DCGAN) [1] implementation on 
 
 ## Prerequisite 
 1. Download CelebA database at: https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?usp=sharing
+    (unzip and store it to '/data' folder such that 'data/img_align_celeba/00001.bmp..')
 2. Download Pretrained DCGAN at: https://www.dropbox.com/s/fvasd83oqgse7xr/net_dcgan.mat?dl=0
-
+    (place it in '/net' folder such that 'net/net_dcgan.mat')
 ## How to play
 Run main_start_dcgan.m (set 'opts.idx_gpus = 1' in line 7 if GPUs are supported, otherwise 'opts.idx_gpus = 0')
 
