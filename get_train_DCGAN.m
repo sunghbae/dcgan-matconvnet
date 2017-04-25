@@ -1,11 +1,8 @@
 function [ net ] = get_train_DCGAN(varargin)
-% complete structure supporting both ram and hdd modes.
-% No GAN is implemented
 addpath('src');
 opts.matconvnet_path = 'matconvnet-1.0-beta24/matlab/vl_setupnn.m';
 
-%% cpu/gpu settings 
-opts.idx_gpus = 0;
+opts.idx_gpus = 0; % cpu/gpu settings 
 opts.imdb_path = ('list_Celeb_full.mat');
 opts.imdb_img_size = [64 64];
 opts.label_std = 0.2; %adding Gaussian noise to labels in training D
