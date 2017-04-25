@@ -32,8 +32,4 @@ state.t = state.t + 1;
 m_hat = state.m./(1-beta1.^state.t);
 v_hat = state.v./(1-beta2.^state.t);
 
-% m_hat = state.m./(1-beta1);
-% v_hat = state.v./(1-beta2);
-
-
 w = w -lr.*m_hat./( sqrt(v_hat)+epsilon);
