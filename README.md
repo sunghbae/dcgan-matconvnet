@@ -27,6 +27,6 @@ Run main_start_dcgan.m (set 'opts.idx_gpus = 1' in line 7 if GPUs are supported,
 ## Future plan
 I plan to deliver the scripts for:
 1) Visualization of filter responses in the network
-2) Checking memorability of the training dataset with 'vector arithmetic operation'
-3) Scoring quality of the network using the incepcion network
+2) Checking memorability for the training dataset with 'vector arithmetic operation'
+3) Evaluation of the network quality using the incepcion network
 
