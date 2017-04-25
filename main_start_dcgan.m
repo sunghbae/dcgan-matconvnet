@@ -7,7 +7,7 @@ addpath('net');
 opts.idx_gpus = 1; % 0: cpu 1: gpu
 
 %% 1) Install MatConvNet
-opts.install.cuda_path = 'C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5';  % if you will use GPUs, set your cuda folder
+opts.install.cuda_path = 'C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5';  % if you will use GPUs, set the path to your cuda folder
 opts.install.matconvnet_path = 'matconvnet-1.0-beta24/matlab/vl_setupnn.m';
 untar('http://www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta24.tar.gz') ;
 run(opts.install.matconvnet_path) ;
