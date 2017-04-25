@@ -31,7 +31,7 @@ copyfile(src, dst);
 fprintf('Copy customized layers.... Done \n')
 %% 3) Get imdb (CelebA)
 
-opts.imdb.im_in_dir  = 'd:/data/img_align_celeba'; % CelebA data should be ready prior to the beginning of this script 
+opts.imdb.im_in_dir  = 'data/img_align_celeba'; % CelebA data should be ready prior to the beginning of this script 
 opts.imdb.im_out_dir = 'data/img_align_celeba_crop';
 
 get_img2re_crop_img(opts.imdb);
