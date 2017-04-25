@@ -4,7 +4,7 @@
 addpath('src');
 addpath('net');
 
-opts.idx_gpus = 1; % 0: cpu 1: gpu
+opts.idx_gpus = 0; % 0: cpu 1: gpu
 
 %% 1) Install MatConvNet
 opts.install.cuda_path = 'C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5';  %set to your cuda folder path
