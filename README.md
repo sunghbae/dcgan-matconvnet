@@ -27,7 +27,7 @@ Run main_start_dcgan.m
 *Note: All hyper parameters for training the network (e.g., learning rate) are identically set to [1]
 
 
-## A result
+## Results
 ![alt text](https://github.com/sunghbae/dcgan-matconvnet/blob/master/demo.png)
 
 [1] Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).(https://arxiv.org/abs/1511.06434) 
