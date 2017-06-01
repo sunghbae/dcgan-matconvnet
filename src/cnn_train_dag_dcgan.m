@@ -91,7 +91,7 @@ for epoch=start+1:opts.numEpochs
 
   %bae
   imdb.images.noise = single(randn(1, 1, 100, imdb.nSample, 'single'));
-  imdb.images.label0 = single(zeros(1, 1, 1, imdb.nSample, 'single')+imdb.label_std*randn(1, 1, 1, imdb.nSample, 'single'));
+  imdb.images.label0 = -single(ones(1, 1, 1, imdb.nSample, 'single')+imdb.label_std*randn(1, 1, 1, imdb.nSample, 'single'));
   imdb.images.label1 = single( ones(1, 1, 1, imdb.nSample, 'single')+imdb.label_std*randn(1, 1, 1, imdb.nSample, 'single')); 
   
   % Train for one epoch.
