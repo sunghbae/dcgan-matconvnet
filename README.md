@@ -8,7 +8,7 @@ Deep Convolutional Generative Adversarial Network (DCGAN) [1] implementation on 
     
        Unzip and store it to '/data' folder such that 'data/img_align_celeba/00001.bmp..'
     
-2. Download Pretrained DCGAN at: https://www.dropbox.com/s/fvasd83oqgse7xr/net_dcgan.mat?dl=0
+2. Download Pretrained DCGAN at:https://www.dropbox.com/s/dmyqd6yfga9wsm6/net_dcgan.mat?dl=0
     
        Place it in '/net' folder such that 'net/net_dcgan.mat'
 
